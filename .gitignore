@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+# Jupyter
+.ipynb_checkpoints/
+# Local datasets (download from Kaggle)
+civile.csv
+penale.csv
+indicatori.csv
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
