@@ -2,13 +2,9 @@
 
 **22 years of Italian judicial workload data - exploring how civil and criminal case backlogs, population-adjusted pressure, and the composition of civil litigation have changed over time.**
 
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](italian-justice-system-workload-2003-2024.ipynb)
-[![pandas](https://img.shields.io/badge/pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)](https://matplotlib.org/)
-[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/lucalullo/italy-justice-system-workload-2003-2024)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white) [![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/lucalullo/italy-justice-system-workload-2003-2024)
 
-**[Explore the notebook](italian-justice-system-workload-2003-2024.ipynb) · [View the dataset on Kaggle](https://www.kaggle.com/datasets/lucalullo/italy-justice-system-workload-2003-2024) · [Author's GitHub](https://github.com/lucalullo)**
+[Kaggle dataset](https://www.kaggle.com/datasets/lucalullo/italy-justice-system-workload-2003-2024) · [GitHub repository](https://github.com/lucalullo/italian-justice-system-analysis)
 
 ## At a glance
 
@@ -22,7 +18,7 @@
 | **Methods** | Exploratory data analysis, time-series visualizations, population-adjusted indicators |
 | **Stack** | Python, pandas, Matplotlib, Jupyter |
 
-## Key observations
+## Key findings
 
 The original notebook highlights four long-term patterns:
 
@@ -33,7 +29,7 @@ The original notebook highlights four long-term patterns:
 
 These are descriptive findings from the notebook, not causal claims about judicial efficiency or the effects of specific reforms.
 
-## Analysis workflow
+## Methodology
 
 ```text
 Ministry of Justice + ISTAT data
@@ -65,7 +61,7 @@ Ministry of Justice + ISTAT data
 - **Judicial pressure:** civil and criminal pending cases per 100,000 residents.
 - **Civil litigation composition:** ordinary litigation and enforcement/insolvency shares.
 
-## Dataset
+## Data
 
 The analysis uses **[Italy Justice System Workload (2003-2024)](https://www.kaggle.com/datasets/lucalullo/italy-justice-system-workload-2003-2024)**, published on Kaggle. The original notebook describes its sources as the Italian Ministry of Justice and ISTAT.
 
@@ -77,7 +73,7 @@ The analysis uses **[Italy Justice System Workload (2003-2024)](https://www.kagg
 
 The dataset files are not redistributed in this repository. Refer to Kaggle for the dataset and its terms of use.
 
-## Repository contents
+## Repository structure
 
 ```text
 italian-justice-system-analysis/
@@ -89,7 +85,7 @@ italian-justice-system-analysis/
 
 The notebook is the **original Kaggle analysis**, kept unchanged. The repository adds documentation and dependency information without rewriting the analysis.
 
-## Run the notebook
+## Getting started
 
 The original notebook was written for Kaggle and loads files from:
 
@@ -106,7 +102,7 @@ To run it locally:
 
 Those path changes are only necessary for local execution; the archived notebook itself is unchanged.
 
-## Scope and limitations
+## Limitations
 
 - The work is **descriptive exploratory analysis**, not a predictive or causal study.
 - The indicators describe pending proceedings and case composition; by themselves they do **not** establish judicial efficiency, case duration, or the impact of specific reforms.
@@ -120,4 +116,6 @@ This analysis complements my work on tabular machine learning, from-scratch algo
 
 **[GitHub profile](https://github.com/lucalullo) · [Kaggle profile](https://www.kaggle.com/lucalullo)**
 
-**Author:** Luca Lullo
+## Author
+
+Created by [Luca Lullo](https://github.com/lucalullo).
